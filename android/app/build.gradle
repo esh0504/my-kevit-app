@@ -130,7 +130,7 @@ android {
 
     defaultConfig {
         missingDimensionStrategy 'react-native-camera', 'general' 
-        applicationId "com.local_kevit"
+        applicationId "com.git_kevit"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

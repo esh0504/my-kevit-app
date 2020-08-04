@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'local_kevit' do
+target 'git_kevit' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'local_kevitTests' do
+  target 'git_kevitTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'local_kevit' do
   end
 end
 
-target 'local_kevit-tvOS' do
-  # Pods for local_kevit-tvOS
+target 'git_kevit-tvOS' do
+  # Pods for git_kevit-tvOS
 
-  target 'local_kevit-tvOSTests' do
+  target 'git_kevit-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

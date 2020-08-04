@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface local_kevitTests : XCTestCase
+@interface git_kevitTests : XCTestCase
 
 @end
 
-@implementation local_kevitTests
+@implementation git_kevitTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

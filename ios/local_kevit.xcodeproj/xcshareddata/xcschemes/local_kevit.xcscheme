@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "local_kevit.app"
-               BlueprintName = "local_kevit"
-               ReferencedContainer = "container:local_kevit.xcodeproj">
+               BuildableName = "git_kevit.app"
+               BlueprintName = "git_kevit"
+               ReferencedContainer = "container:git_kevit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "local_kevitTests.xctest"
-               BlueprintName = "local_kevitTests"
-               ReferencedContainer = "container:local_kevit.xcodeproj">
+               BuildableName = "git_kevitTests.xctest"
+               BlueprintName = "git_kevitTests"
+               ReferencedContainer = "container:git_kevit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "local_kevit.app"
-            BlueprintName = "local_kevit"
-            ReferencedContainer = "container:local_kevit.xcodeproj">
+            BuildableName = "git_kevit.app"
+            BlueprintName = "git_kevit"
+            ReferencedContainer = "container:git_kevit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "local_kevit.app"
-            BlueprintName = "local_kevit"
-            ReferencedContainer = "container:local_kevit.xcodeproj">
+            BuildableName = "git_kevit.app"
+            BlueprintName = "git_kevit"
+            ReferencedContainer = "container:git_kevit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
