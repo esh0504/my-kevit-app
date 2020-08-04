@@ -10,7 +10,7 @@ class index extends React.Component{
   constructor () {
     super();
     this.state = {
-      url: 'http://10.20.100.212:8080/customer-web/km/index',location:{latitude:37,longitude:127},
+      url: 'http://121.162.8.56:8000/mobile/km/index',location:{latitude:37,longitude:127},
       };
   }
   webView = {
