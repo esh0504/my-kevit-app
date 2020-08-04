@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* local_kevitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* local_kevitTests.m */; };
+		00E356F31AD99517003FC87E /* git_kevitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* git_kevitTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* local_kevitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* local_kevitTests.m */; };
-		77D37CDB3CF52046F5990032 /* libPods-local_kevit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFCB042F7FB4BB70B999DA8 /* libPods-local_kevit-tvOSTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* git_kevitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* git_kevitTests.m */; };
+		77D37CDB3CF52046F5990032 /* libPods-git_kevit-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFCB042F7FB4BB70B999DA8 /* libPods-git_kevit-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B064DFF7F4F5034CC7C3A244 /* libPods-local_kevit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74EEFA3813A93E8B8CFB45 /* libPods-local_kevit-tvOS.a */; };
-		B82FA1C69B1D52B297F440AA /* libPods-local_kevit-local_kevitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199D40764F74B5198C7553D4 /* libPods-local_kevit-local_kevitTests.a */; };
-		C9E2F31820440A5FF2164BB9 /* libPods-local_kevit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809702A192F22D33621998D7 /* libPods-local_kevit.a */; };
+		B064DFF7F4F5034CC7C3A244 /* libPods-git_kevit-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74EEFA3813A93E8B8CFB45 /* libPods-git_kevit-tvOS.a */; };
+		B82FA1C69B1D52B297F440AA /* libPods-git_kevit-git_kevitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199D40764F74B5198C7553D4 /* libPods-git_kevit-git_kevitTests.a */; };
+		C9E2F31820440A5FF2164BB9 /* libPods-git_kevit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 809702A192F22D33621998D7 /* libPods-git_kevit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = local_kevit;
+			remoteInfo = git_kevit;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "local_kevit-tvOS";
+			remoteInfo = "git_kevit-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* local_kevitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = local_kevitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* git_kevitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_kevitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* local_kevitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = local_kevitTests.m; sourceTree = "<group>"; };
-		0EB43D588AA1C808509365A6 /* Pods-local_kevit-local_kevitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-local_kevitTests.debug.xcconfig"; path = "Target Support Files/Pods-local_kevit-local_kevitTests/Pods-local_kevit-local_kevitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* local_kevit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = local_kevit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = local_kevit/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = local_kevit/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = local_kevit/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = local_kevit/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = local_kevit/main.m; sourceTree = "<group>"; };
-		199D40764F74B5198C7553D4 /* libPods-local_kevit-local_kevitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-local_kevit-local_kevitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* local_kevit-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "local_kevit-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* local_kevit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "local_kevit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D7B0EFC26E15EECEA3AE331 /* Pods-local_kevit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-local_kevit-tvOSTests/Pods-local_kevit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		596125F741FD9CFC13EF42DE /* Pods-local_kevit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit.release.xcconfig"; path = "Target Support Files/Pods-local_kevit/Pods-local_kevit.release.xcconfig"; sourceTree = "<group>"; };
-		61E241C9B013EB5C3CA07A02 /* Pods-local_kevit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-local_kevit-tvOSTests/Pods-local_kevit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		6396A207F12733D24150781F /* Pods-local_kevit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-local_kevit-tvOS/Pods-local_kevit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		787C43D56EABC7C36596B43C /* Pods-local_kevit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-local_kevit-tvOS/Pods-local_kevit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		809702A192F22D33621998D7 /* libPods-local_kevit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-local_kevit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = local_kevit/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DBFCB042F7FB4BB70B999DA8 /* libPods-local_kevit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-local_kevit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9C5010820C38C947FE9878C /* Pods-local_kevit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit.debug.xcconfig"; path = "Target Support Files/Pods-local_kevit/Pods-local_kevit.debug.xcconfig"; sourceTree = "<group>"; };
-		EC74EEFA3813A93E8B8CFB45 /* libPods-local_kevit-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-local_kevit-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* git_kevitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_kevitTests.m; sourceTree = "<group>"; };
+		0EB43D588AA1C808509365A6 /* Pods-git_kevit-git_kevitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-git_kevitTests.debug.xcconfig"; path = "Target Support Files/Pods-git_kevit-git_kevitTests/Pods-git_kevit-git_kevitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* git_kevit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = git_kevit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = git_kevit/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = git_kevit/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = git_kevit/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = git_kevit/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = git_kevit/main.m; sourceTree = "<group>"; };
+		199D40764F74B5198C7553D4 /* libPods-git_kevit-git_kevitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-git_kevit-git_kevitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* git_kevit-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git_kevit-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* git_kevit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "git_kevit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7B0EFC26E15EECEA3AE331 /* Pods-git_kevit-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-git_kevit-tvOSTests/Pods-git_kevit-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		596125F741FD9CFC13EF42DE /* Pods-git_kevit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit.release.xcconfig"; path = "Target Support Files/Pods-git_kevit/Pods-git_kevit.release.xcconfig"; sourceTree = "<group>"; };
+		61E241C9B013EB5C3CA07A02 /* Pods-git_kevit-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-git_kevit-tvOSTests/Pods-git_kevit-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		6396A207F12733D24150781F /* Pods-git_kevit-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-git_kevit-tvOS/Pods-git_kevit-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		787C43D56EABC7C36596B43C /* Pods-git_kevit-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-tvOS.release.xcconfig"; path = "Target Support Files/Pods-git_kevit-tvOS/Pods-git_kevit-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		809702A192F22D33621998D7 /* libPods-git_kevit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-git_kevit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = git_kevit/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBFCB042F7FB4BB70B999DA8 /* libPods-git_kevit-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-git_kevit-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C5010820C38C947FE9878C /* Pods-git_kevit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit.debug.xcconfig"; path = "Target Support Files/Pods-git_kevit/Pods-git_kevit.debug.xcconfig"; sourceTree = "<group>"; };
+		EC74EEFA3813A93E8B8CFB45 /* libPods-git_kevit-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-git_kevit-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FA3A4FC8F26BB003CE331D4F /* Pods-local_kevit-local_kevitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-local_kevit-local_kevitTests.release.xcconfig"; path = "Target Support Files/Pods-local_kevit-local_kevitTests/Pods-local_kevit-local_kevitTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3A4FC8F26BB003CE331D4F /* Pods-git_kevit-git_kevitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-git_kevit-git_kevitTests.release.xcconfig"; path = "Target Support Files/Pods-git_kevit-git_kevitTests/Pods-git_kevit-git_kevitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82FA1C69B1D52B297F440AA /* libPods-local_kevit-local_kevitTests.a in Frameworks */,
+				B82FA1C69B1D52B297F440AA /* libPods-git_kevit-git_kevitTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9E2F31820440A5FF2164BB9 /* libPods-local_kevit.a in Frameworks */,
+				C9E2F31820440A5FF2164BB9 /* libPods-git_kevit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B064DFF7F4F5034CC7C3A244 /* libPods-local_kevit-tvOS.a in Frameworks */,
+				B064DFF7F4F5034CC7C3A244 /* libPods-git_kevit-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77D37CDB3CF52046F5990032 /* libPods-local_kevit-tvOSTests.a in Frameworks */,
+				77D37CDB3CF52046F5990032 /* libPods-git_kevit-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* local_kevitTests */ = {
+		00E356EF1AD99517003FC87E /* git_kevitTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* local_kevitTests.m */,
+				00E356F21AD99517003FC87E /* git_kevitTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = local_kevitTests;
+			path = git_kevitTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* local_kevit */ = {
+		13B07FAE1A68108700A75B9A /* git_kevit */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = local_kevit;
+			name = git_kevit;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				809702A192F22D33621998D7 /* libPods-local_kevit.a */,
-				199D40764F74B5198C7553D4 /* libPods-local_kevit-local_kevitTests.a */,
-				EC74EEFA3813A93E8B8CFB45 /* libPods-local_kevit-tvOS.a */,
-				DBFCB042F7FB4BB70B999DA8 /* libPods-local_kevit-tvOSTests.a */,
+				809702A192F22D33621998D7 /* libPods-git_kevit.a */,
+				199D40764F74B5198C7553D4 /* libPods-git_kevit-git_kevitTests.a */,
+				EC74EEFA3813A93E8B8CFB45 /* libPods-git_kevit-tvOS.a */,
+				DBFCB042F7FB4BB70B999DA8 /* libPods-git_kevit-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* local_kevit */,
+				13B07FAE1A68108700A75B9A /* git_kevit */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* local_kevitTests */,
+				00E356EF1AD99517003FC87E /* git_kevitTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				84937E2CF6D3B74DB9B2E380 /* Pods */,
@@ -174,10 +174,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* local_kevit.app */,
-				00E356EE1AD99517003FC87E /* local_kevitTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* local_kevit-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* local_kevit-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* git_kevit.app */,
+				00E356EE1AD99517003FC87E /* git_kevitTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* git_kevit-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* git_kevit-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		84937E2CF6D3B74DB9B2E380 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E9C5010820C38C947FE9878C /* Pods-local_kevit.debug.xcconfig */,
-				596125F741FD9CFC13EF42DE /* Pods-local_kevit.release.xcconfig */,
-				0EB43D588AA1C808509365A6 /* Pods-local_kevit-local_kevitTests.debug.xcconfig */,
-				FA3A4FC8F26BB003CE331D4F /* Pods-local_kevit-local_kevitTests.release.xcconfig */,
-				6396A207F12733D24150781F /* Pods-local_kevit-tvOS.debug.xcconfig */,
-				787C43D56EABC7C36596B43C /* Pods-local_kevit-tvOS.release.xcconfig */,
-				3D7B0EFC26E15EECEA3AE331 /* Pods-local_kevit-tvOSTests.debug.xcconfig */,
-				61E241C9B013EB5C3CA07A02 /* Pods-local_kevit-tvOSTests.release.xcconfig */,
+				E9C5010820C38C947FE9878C /* Pods-git_kevit.debug.xcconfig */,
+				596125F741FD9CFC13EF42DE /* Pods-git_kevit.release.xcconfig */,
+				0EB43D588AA1C808509365A6 /* Pods-git_kevit-git_kevitTests.debug.xcconfig */,
+				FA3A4FC8F26BB003CE331D4F /* Pods-git_kevit-git_kevitTests.release.xcconfig */,
+				6396A207F12733D24150781F /* Pods-git_kevit-tvOS.debug.xcconfig */,
+				787C43D56EABC7C36596B43C /* Pods-git_kevit-tvOS.release.xcconfig */,
+				3D7B0EFC26E15EECEA3AE331 /* Pods-git_kevit-tvOSTests.debug.xcconfig */,
+				61E241C9B013EB5C3CA07A02 /* Pods-git_kevit-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* local_kevitTests */ = {
+		00E356ED1AD99517003FC87E /* git_kevitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "local_kevitTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "git_kevitTests" */;
 			buildPhases = (
 				13968A2778D5AD1AA385B58C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -216,14 +216,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = local_kevitTests;
-			productName = local_kevitTests;
-			productReference = 00E356EE1AD99517003FC87E /* local_kevitTests.xctest */;
+			name = git_kevitTests;
+			productName = git_kevitTests;
+			productReference = 00E356EE1AD99517003FC87E /* git_kevitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* local_kevit */ = {
+		13B07F861A680F5B00A75B9A /* git_kevit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "local_kevit" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "git_kevit" */;
 			buildPhases = (
 				C0F2080E4198098518707067 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -237,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = local_kevit;
-			productName = local_kevit;
-			productReference = 13B07F961A680F5B00A75B9A /* local_kevit.app */;
+			name = git_kevit;
+			productName = git_kevit;
+			productReference = 13B07F961A680F5B00A75B9A /* git_kevit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* local_kevit-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* git_kevit-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "local_kevit-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "git_kevit-tvOS" */;
 			buildPhases = (
 				2EECA20C4CB305CBACF41B01 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -257,14 +257,14 @@
 			);
 			dependencies = (
 			);
-			name = "local_kevit-tvOS";
-			productName = "local_kevit-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* local_kevit-tvOS.app */;
+			name = "git_kevit-tvOS";
+			productName = "git_kevit-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* git_kevit-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* local_kevit-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* git_kevit-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "local_kevit-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "git_kevit-tvOSTests" */;
 			buildPhases = (
 				C86469CA984575B524B22864 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "local_kevit-tvOSTests";
-			productName = "local_kevit-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* local_kevit-tvOSTests.xctest */;
+			name = "git_kevit-tvOSTests";
+			productName = "git_kevit-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* git_kevit-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "local_kevit" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "git_kevit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* local_kevit */,
-				00E356ED1AD99517003FC87E /* local_kevitTests */,
-				2D02E47A1E0B4A5D006451C7 /* local_kevit-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* local_kevit-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* git_kevit */,
+				00E356ED1AD99517003FC87E /* git_kevitTests */,
+				2D02E47A1E0B4A5D006451C7 /* git_kevit-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* git_kevit-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +392,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-local_kevit-local_kevitTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-git_kevit-git_kevitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -428,7 +428,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-local_kevit-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-git_kevit-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -441,7 +441,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-local_kevit-local_kevitTests/Pods-local_kevit-local_kevitTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-git_kevit-git_kevitTests/Pods-git_kevit-git_kevitTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -450,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-local_kevit-local_kevitTests/Pods-local_kevit-local_kevitTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-git_kevit-git_kevitTests/Pods-git_kevit-git_kevitTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF96DC8969EE43D7238DCACF /* [CP] Copy Pods Resources */ = {
@@ -459,7 +459,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-local_kevit/Pods-local_kevit-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-git_kevit/Pods-git_kevit-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -468,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-local_kevit/Pods-local_kevit-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-git_kevit/Pods-git_kevit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C0F2080E4198098518707067 /* [CP] Check Pods Manifest.lock */ = {
@@ -486,7 +486,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-local_kevit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-git_kevit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -508,7 +508,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-local_kevit-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-git_kevit-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* local_kevitTests.m in Sources */,
+				00E356F31AD99517003FC87E /* git_kevitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* local_kevitTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* git_kevitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* local_kevit */;
+			target = 13B07F861A680F5B00A75B9A /* git_kevit */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* local_kevit-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* git_kevit-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EB43D588AA1C808509365A6 /* Pods-local_kevit-local_kevitTests.debug.xcconfig */;
+			baseConfigurationReference = 0EB43D588AA1C808509365A6 /* Pods-git_kevit-git_kevitTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = local_kevitTests/Info.plist;
+				INFOPLIST_FILE = git_kevitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local_kevit.app/local_kevit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git_kevit.app/git_kevit";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3A4FC8F26BB003CE331D4F /* Pods-local_kevit-local_kevitTests.release.xcconfig */;
+			baseConfigurationReference = FA3A4FC8F26BB003CE331D4F /* Pods-git_kevit-git_kevitTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = local_kevitTests/Info.plist;
+				INFOPLIST_FILE = git_kevitTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local_kevit.app/local_kevit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git_kevit.app/git_kevit";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9C5010820C38C947FE9878C /* Pods-local_kevit.debug.xcconfig */;
+			baseConfigurationReference = E9C5010820C38C947FE9878C /* Pods-git_kevit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = local_kevit/Info.plist;
+				INFOPLIST_FILE = git_kevit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = local_kevit;
+				PRODUCT_NAME = git_kevit;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 596125F741FD9CFC13EF42DE /* Pods-local_kevit.release.xcconfig */;
+			baseConfigurationReference = 596125F741FD9CFC13EF42DE /* Pods-git_kevit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = local_kevit/Info.plist;
+				INFOPLIST_FILE = git_kevit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = local_kevit;
+				PRODUCT_NAME = git_kevit;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6396A207F12733D24150781F /* Pods-local_kevit-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 6396A207F12733D24150781F /* Pods-git_kevit-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "local_kevit-tvOS/Info.plist";
+				INFOPLIST_FILE = "git_kevit-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.local_kevit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.git_kevit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 787C43D56EABC7C36596B43C /* Pods-local_kevit-tvOS.release.xcconfig */;
+			baseConfigurationReference = 787C43D56EABC7C36596B43C /* Pods-git_kevit-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "local_kevit-tvOS/Info.plist";
+				INFOPLIST_FILE = "git_kevit-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.local_kevit-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.git_kevit-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D7B0EFC26E15EECEA3AE331 /* Pods-local_kevit-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 3D7B0EFC26E15EECEA3AE331 /* Pods-git_kevit-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "local_kevit-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "git_kevit-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.local_kevit-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.git_kevit-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local_kevit-tvOS.app/local_kevit-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git_kevit-tvOS.app/git_kevit-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61E241C9B013EB5C3CA07A02 /* Pods-local_kevit-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 61E241C9B013EB5C3CA07A02 /* Pods-git_kevit-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "local_kevit-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "git_kevit-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.local_kevit-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.git_kevit-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/local_kevit-tvOS.app/local_kevit-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/git_kevit-tvOS.app/git_kevit-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "local_kevitTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "git_kevitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "local_kevit" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "git_kevit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "local_kevit-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "git_kevit-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "local_kevit-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "git_kevit-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "local_kevit" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "git_kevit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

@@ -1,4 +1,4 @@
-package com.local_kevit;
+package com.git_kevit;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "local_kevit";
+    return "git_kevit";
   }
 }
