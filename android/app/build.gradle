@@ -130,7 +130,7 @@ android {
 
     defaultConfig {
         missingDimensionStrategy 'react-native-camera', 'general' 
-        applicationId "com.local_kevit"
+        applicationId "com.kevitchargeservice"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -153,11 +153,11 @@ android {
             keyPassword 'android'
         }
         release {
-            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
-                storeFile file(MYAPP_RELEASE_STORE_FILE)
-                storePassword MYAPP_RELEASE_STORE_PASSWORD
-                keyAlias MYAPP_RELEASE_KEY_ALIAS
-                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            if (project.hasProperty('KEVIT_CS_RELEASE_STORE_FILE')) {
+                storeFile file(KEVIT_CS_RELEASE_STORE_FILE)
+                storePassword KEVIT_CS_RELEASE_STORE_PASSWORD
+                keyAlias KEVIT_CS_RELEASE_KEY_ALIAS
+                keyPassword KEVIT_CS_RELEASE_KEY_PASSWORD
             }
         }
     }

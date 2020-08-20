@@ -1,10 +1,10 @@
 import React from 'react';
 import { RNCamera } from 'react-native-camera';
 import QRCodeScanner from 'react-native-qrcode-scanner';
-import {Button ,StyleSheet,BackHandler} from 'react-native';
+import {Button ,StyleSheet,View,Dimensions} from 'react-native';
 import { qrdata, Qrread } from '../../redux/reducer/reducer';
 import { connect } from 'react-redux';
-import { NavigationEvents } from 'react-navigation';
+
 
 
 
@@ -13,16 +13,21 @@ class index extends React.Component{
     super(); 
   }
       onSuccess = e => {
-        console.log(this.props);
-        const {qrdata,Qrread}=this.props;
-        qrdata(e.data);
-        Qrread(1);
-       this.props.navigation.navigate('Home');
+        if(e.data.includes("www.kevit.co.kr")){
+          console.log(this.props);
+          const {qrdata,Qrread}=this.props;
+          qrdata(e.data);
+          Qrread(1);
+        }else{
+          alert("잘못된 QR코드 입니다. 다시 시도해주세요.")
+        }
+        this.props.navigation.navigate('Home');
       };
 
     render(){
         return(
-            <QRCodeScanner
+          <View style={styles.container}>
+            <QRCodeScanner 
                 onRead={this.onSuccess}
                 flashMode={RNCamera.Constants.FlashMode.torch}
                 bottomContent={
@@ -30,6 +35,7 @@ class index extends React.Component{
                     </Button>
                 }
             />
+          </View>
          );
     }
 }
