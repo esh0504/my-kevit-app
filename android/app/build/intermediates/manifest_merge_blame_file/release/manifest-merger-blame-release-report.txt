@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kevitchargeservice"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+12-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:5:5-70
+12-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:5:22-68
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:7:22-77
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:8:5-81
+15-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:8:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:9:5-79
+16-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:10:5-81
+17-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:11:5-65
+18-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:11:22-63
+19
+20    <uses-feature
+20-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+21        android:name="android.hardware.camera"
+21-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+22        android:required="false" />
+22-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+23    <uses-feature
+23-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+25        android:required="false" />
+25-->[:react-native-camera] /Users/kevit/Project/local_kevit/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+26
+27    <application
+27-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:13:5-32:19
+28        android:name="com.kevitchargeservice.MainApplication"
+28-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:14:7-38
+29        android:allowBackup="false"
+29-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:18:7-34
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/639e914bfc1efa21e36199d3ff2c5eef/core-1.1.0/AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:16:7-41
+32        android:label="@string/app_name"
+32-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:15:7-39
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:17:7-52
+34        android:theme="@style/AppTheme" >
+34-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:19:7-38
+35        <activity
+35-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:20:7-30:18
+36            android:name="com.kevitchargeservice.MainActivity"
+36-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:21:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:23:9-86
+38            android:label="@string/app_name"
+38-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:22:9-41
+39            android:launchMode="singleTask"
+39-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:24:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:25:9-51
+41            <intent-filter>
+41-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:26:9-29:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:27:13-65
+42-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:27:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:28:13-73
+44-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:28:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:31:7-84
+47-->/Users/kevit/Project/local_kevit/android/app/src/main/AndroidManifest.xml:31:17-81
+48
+49        <provider
+49-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+50            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+50-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+51            android:authorities="com.kevitchargeservice.fileprovider"
+51-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+52            android:exported="false"
+52-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+53            android:grantUriPermissions="true" >
+53-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+54            <meta-data
+54-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:63
+55                android:name="android.support.FILE_PROVIDER_PATHS"
+55-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+56                android:resource="@xml/file_provider_paths" />
+56-->[:react-native-webview] /Users/kevit/Project/local_kevit/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-60
+57        </provider>
+58
+59        <activity
+59-->[com.google.android.gms:play-services-base:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/1ae1802a56e0e11ac57c3477b520bb8f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/1ae1802a56e0e11ac57c3477b520bb8f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kevit/.gradle/caches/transforms-2/files-2.1/1ae1802a56e0e11ac57c3477b520bb8f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+67    </application>
+68
+69</manifest>
