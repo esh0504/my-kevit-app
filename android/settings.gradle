@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 rootProject.name = 'KevitChargeService'
+=======
+rootProject.name = 'git_kevit'
+>>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 

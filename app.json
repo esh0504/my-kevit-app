@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "KevitChargeService",
   "displayName": "KEVIT충전서비스"
+=======
+  "name": "git_kevit",
+  "displayName": "git_kevit"
+>>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
 }

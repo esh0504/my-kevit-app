@@ -12,8 +12,13 @@ class index extends React.Component{
     this.state = {
       // url: 'http://121.162.8.56:8000/mobile/km/index',//로컬
       // url: 'http://121.162.8.56:8000/mobile/km/index',//개발계
+<<<<<<< HEAD
       url: 'http://www.kevit.co.kr/mobile/km/index',location:{latitude:37,longitude:127}//운영계
       //url: 'http://10.20.100.212:8080/customer-web/km/index',location:{latitude:37,longitude:127},
+=======
+      url: 'http://www.kevit.co.kr/mobile/km/index',//운영계
+      location:{latitude:37,longitude:127},
+>>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
       };
   }
   webView = {

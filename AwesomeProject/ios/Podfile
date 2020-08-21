@@ -3,20 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-<<<<<<< HEAD
-target 'KevitChargeService' do
-=======
-target 'git_kevit' do
->>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
+target 'AwesomeProject' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-<<<<<<< HEAD
-  target 'KevitChargeServiceTests' do
-=======
-  target 'git_kevitTests' do
->>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
+  target 'AwesomeProjectTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -31,17 +23,10 @@ target 'git_kevit' do
   end
 end
 
-<<<<<<< HEAD
-target 'KevitChargeService-tvOS' do
-  # Pods for KevitChargeService-tvOS
+target 'AwesomeProject-tvOS' do
+  # Pods for AwesomeProject-tvOS
 
-  target 'KevitChargeService-tvOSTests' do
-=======
-target 'git_kevit-tvOS' do
-  # Pods for git_kevit-tvOS
-
-  target 'git_kevit-tvOSTests' do
->>>>>>> bb29abd842293d1867582b8e246cf22b9ddb03ed
+  target 'AwesomeProject-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
