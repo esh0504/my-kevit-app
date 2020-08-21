@@ -10,7 +10,7 @@
 
 #
 
-build/
+# build/
 
 *.pbxuser
 
@@ -48,7 +48,7 @@ DerivedData
 
 #
 
-build/
+# build/
 
 .idea
 
