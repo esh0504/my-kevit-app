@@ -1,2 +1,1 @@
-# my-kevit-app
-my kevit app with redux, webview
+# kevit-RN-app
