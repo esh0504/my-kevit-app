@@ -1,9 +1,10 @@
 import React from "react";
 import Navigation from './src/Navigation/index'
-import { PermissionsAndroid } from 'react-native';
+import { PermissionsAndroid ,Platform,NativeModules} from 'react-native';
+import Geolocation from '@react-native-community/geolocation';
 import {Provider,connect} from 'react-redux';
 import {createStore,applyMiddleware}from 'redux';
-
+import {PERMISSIONS, RESULTS, request,check} from 'react-native-permissions';
 import reducer from './src/redux/reducer/reducer'
 
 const store=createStore(reducer);
@@ -31,6 +32,7 @@ export default class App extends React.Component{
       console.warn(err);
     }
   };
+
   async requestLocationPermission(){
     try{
         // 퍼미션 요청 다이얼로그 보이기
@@ -40,13 +42,30 @@ export default class App extends React.Component{
         }else{
             console.log('위치정보 사용을 거부하셨습니다.\n앱의 기능사용이 제한됩니다.');
         }
-
     }catch(err){alert('퍼미션 작업 에러');}
-
 }
+
+iosrequestCameraPermission = async () => {
+  const granted=await request(PERMISSIONS.IOS.CAMERA);
+  console.log(granted);
+};
+
+iosrequestLocationPermission = async()=>{
+  try{
+    Geolocation.requestAuthorization() 
+  }catch(error){
+    console.log('ios Location error',error);
+  }
+}
+
 async componentDidMount(){
-  await this.requestCameraPermission();
-  await this.requestLocationPermission();
+  if(Platform.OS==='ios'){
+    await this.iosrequestCameraPermission();
+    await this.iosrequestLocationPermission();
+  }else{
+    await this.requestCameraPermission();
+    await this.requestLocationPermission();
+  }
 }
   render()
   {

@@ -1,16 +1,21 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
 
-platform :ios, '10.0'
+platform :ios, '13.6'
 
 target 'KevitChargeService' do
   config = use_native_modules!
-
   use_react_native!(:path => config["reactNativePath"])
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'react-native-camera', path: '../node_modules/react-native-camera'
+  pod 'Permission-Camera', :path => "#{permissions_path}/Camera.podspec"
 
   target 'KevitChargeServiceTests' do
     inherit! :complete
     # Pods for testing
+  
   end
 
   # Enables Flipper.
@@ -25,9 +30,11 @@ end
 
 target 'KevitChargeService-tvOS' do
   # Pods for KevitChargeService-tvOS
-
+ 
   target 'KevitChargeService-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
 end
+
+
